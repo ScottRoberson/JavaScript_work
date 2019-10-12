@@ -31,7 +31,8 @@ console.log(val);
 const people = [
   {name: 'John', age:30},
   {name: 'Mike',age:23},
-  {name:'Nancy',age:40}
+  {name:'Nancy',age:40},
+  {name:'Peter',age:55}
 ];
 
 for(let i = 0; i<people.length;i++){
