@@ -43,7 +43,7 @@ val = listItem.nextElementSibling.nextElementSibling;
 
 //Get prev sibling
 val = listItem.previousSibling;
-val = listItem.previousElementSibling;
+val = listItem.previousElementSiblinggit;
 
 
 
