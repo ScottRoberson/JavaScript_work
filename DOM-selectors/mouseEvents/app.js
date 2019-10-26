@@ -3,21 +3,21 @@ const card = document.querySelector('.card');
 const heading = document.querySelector('h5');
 
 //Click
-// clearBtn.addEventListener('click',runEvent);
+clearBtn.addEventListener('click',runEvent);
 //Double Click
-// clearBtn.addEventListener('dblclick',runEvent);
-// //Mouse Down
-// clearBtn.addEventListener('mousedown',runEvent);
-//Mouse Up
-// clearBtn.addEventListener('mouseup',runEvent);
+clearBtn.addEventListener('dblclick',runEvent);
+//Mouse Down
+clearBtn.addEventListener('mousedown',runEvent);
+Mouse Up
+clearBtn.addEventListener('mouseup',runEvent);
 //Mouse Enter
-// card.addEventListener('mouseenter',runEvent);
-// //Mouse Leave
-// card.addEventListener('mouseleave',runEvent);
+ card.addEventListener('mouseenter',runEvent);
+ //Mouse Leave
+ card.addEventListener('mouseleave',runEvent);
 //Mouse Over
-// card.addEventListener('mouseover',runEvent);
-// //Mouse Out
-// card.addEventListener('mouseout',runEvent);
+card.addEventListener('mouseover',runEvent);
+//Mouse Out
+card.addEventListener('mouseout',runEvent);
 //Mouse Move
 card.addEventListener('mousemove',runEvent);
 
