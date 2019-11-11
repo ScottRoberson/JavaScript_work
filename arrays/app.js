@@ -20,34 +20,34 @@ val = numbers.indexOf(36);
 
 //Mutating Arrays
 //Add on to end
-//numbers.push(250);
+numbers.push(250);
 //Add to front
-//numbers.unshift(120);
+numbers.unshift(120);
 //Take off from end
-//numbers.pop();
+numbers.pop();
 //Take off from front
-//numbers.shift();
+numbers.shift();
 //Splice out value (start,end)
-//numbers.splice(1,3);
+numbers.splice(1,3);
 //Reverse the array
-//numbers.reverse();
+numbers.reverse();
 
 //Concatenate array
 val = numbers.concat(numbers2);
 
 //Sorting arrays
 val = fruit.sort();
-// val = numbers.sort();
+val = numbers.sort();
 
-// //Use the "compare function"
-// val = numbers.sort(function(x,y){
-//   return x-y;
-// });
+ //Use the "compare function"
+ val = numbers.sort(function(x,y){
+  return x-y;
+ });
 
 // //Reverse sort
-// val = numbers.sort(function(x,y){
-//   return y-x;
-// });
+ val = numbers.sort(function(x,y){
+  return y-x;
+ });
 
 //Find 
 function over50(num){
